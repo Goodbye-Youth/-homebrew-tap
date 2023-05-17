@@ -26,7 +26,7 @@ class Prometheus < Formula
           <key>ProgramArguments</key>
           <array>
             <string>#{opt_bin}/prometheus</string>
-            <string>-config</string>
+            <string>--config.file</string>
             <string>#{etc}/prometheus.yml</string>
           </array>
           <key>RunAtLoad</key>
