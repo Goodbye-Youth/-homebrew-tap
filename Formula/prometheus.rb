@@ -6,7 +6,7 @@ class Prometheus < Formula
   version "1.0.0"
   
   def install
-    bin.install "prometheus"
+    bin.install "prometheus", "promtool"
     etc.install "prometheus.yml"
   end
   
