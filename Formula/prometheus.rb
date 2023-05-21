@@ -27,7 +27,7 @@ class Prometheus < Formula
           <array>
             <string>#{opt_bin}/prometheus</string>
             <string>--config.file</string>
-            <string>#{etc}/prometheus.yml</string>
+            <string>#{etc}/prometheus/prometheus.yml</string>
           </array>
           <key>RunAtLoad</key>
           <true/>
