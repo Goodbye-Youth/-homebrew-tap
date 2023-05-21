@@ -32,7 +32,7 @@ class MysqldExporter < Formula
           <key>ProgramArguments</key>
           <array>
             <string>#{opt_bin}/mysqld_exporter</string>
-            <string>---config.my-cnf</string>
+            <string>--config.my-cnf</string>
             <string>#{etc}/.my.cnf</string>
           </array>
           <key>RunAtLoad</key>
