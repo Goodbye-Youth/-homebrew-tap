@@ -8,7 +8,6 @@ class Prometheus < Formula
   def install
     bin.install "prometheus", "promtool"
     etc.install "prometheus.yml"
-    man.mkpath "#{etc}/prometheus"
   end
   
   def plist
@@ -28,7 +27,7 @@ class Prometheus < Formula
           <array>
             <string>#{opt_bin}/prometheus</string>
             <string>--config.file</string>
-            <string>#{etc}/prometheus/prometheus.yml</string>
+            <string>#{etc}/prometheus.yml</string>
           </array>
           <key>RunAtLoad</key>
           <true/>
