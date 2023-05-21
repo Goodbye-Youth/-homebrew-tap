@@ -7,12 +7,11 @@ class MysqldExporter < Formula
   
   def install
     bin.install "mysqld_exporter"
-    (buildpath/".my.cnf").write
-    <<~EOS
-		[client]
-		user=exporter
-		password=exporter
-	EOS
+    (buildpath/".my.cnf").write <<~EOS
+	[client]
+	user=exporter
+	password=exporter
+    EOS
     etc.install ".my.cnf"
   end
   
