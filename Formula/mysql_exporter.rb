@@ -47,3 +47,4 @@ class MysqldExporter < Formula
       </plist>
     EOS
   end
+end
