@@ -6,7 +6,7 @@ class Emqx < Formula
   version "1.0.0"
   
   def install
-    bin.install "bin/[*]"
+    bin.install "bin["*"]"
   end
   
   def plist
