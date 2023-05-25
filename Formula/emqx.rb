@@ -24,7 +24,7 @@ class Emqx < Formula
           <string>#{plist_name}</string>
           <key>ProgramArguments</key>
           <array>
-            <string>#{opt_bin}/emqx</string>
+            <string>#{opt_bin}/bin/emqx</string>
           </array>
           <key>RunAtLoad</key>
           <true/>
